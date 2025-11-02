@@ -7,7 +7,6 @@ __pycache__/
 .ipynb_checkpoints/
 logs/
 api/
-
 web/node_modules/
 web/.next/
 web/.env.local
@@ -15,3 +14,4 @@ web/.env.local.example
 dist/
 .env.example/
 .vscode/
+

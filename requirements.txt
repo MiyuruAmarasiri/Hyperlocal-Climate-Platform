@@ -1,0 +1,25 @@
+aiofiles
+ dash
+dash-bootstrap-components
+fastapi
+geopandas
+httpx
+jinja2
+numpy
+pandas
+paho-mqtt
+plotly
+pydantic<2
+python-dotenv
+rasterio
+shapely
+sqlalchemy
+uvicorn[standard]
+xarray
+netCDF4
+torch
+scikit-learn
+pytest
+cdsapi
+aioftp
+pytest-asyncio

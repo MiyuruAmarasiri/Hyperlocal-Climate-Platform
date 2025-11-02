@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env/
+.venv/
+.env.local/
+.DS_Store
+.ipynb_checkpoints/
+logs/
+
+web/node_modules/
+web/.next/
+web/.env.local
+web/.env.local.example
+dist/
+.env.example/
+.vscode/

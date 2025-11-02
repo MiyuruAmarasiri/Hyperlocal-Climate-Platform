@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #020617;
+  color: #e2e8f0;
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+button,
+.cta,
+.secondary {
+  font-family: inherit;
+  border-radius: 999px;
+  padding: 0.75rem 1.6rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.cta {
+  background: linear-gradient(135deg, #22d3ee, #6366f1);
+  color: #020617;
+  box-shadow: 0 20px 40px -20px rgba(99, 102, 241, 0.7);
+  border: none;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 30px 55px -25px rgba(99, 102, 241, 0.8);
+}
+
+.secondary {
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  color: #e2e8f0;
+  background: transparent;
+}
+
+.secondary:hover {
+  border-color: rgba(59, 130, 246, 0.6);
+}
+
+code {
+  font-family: "IBM Plex Mono", "Fira Code", monospace;
+  background: rgba(15, 23, 42, 0.75);
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(148, 163, 184, 0.9);
+}
+
+tbody tr:nth-child(odd) {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+td,
+th {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(1.05);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(148, 163, 184, 0.2);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.badge.risk-low {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: rgba(34, 197, 94, 0.45);
+}
+
+.badge.risk-medium {
+  background: rgba(251, 191, 36, 0.18);
+  border-color: rgba(251, 191, 36, 0.45);
+}
+
+.badge.risk-high {
+  background: rgba(248, 113, 113, 0.18);
+  border-color: rgba(248, 113, 113, 0.45);
+}
+

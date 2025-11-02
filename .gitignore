@@ -6,6 +6,7 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 logs/
+api/
 
 web/node_modules/
 web/.next/
